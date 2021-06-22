@@ -1,14 +1,15 @@
-# Babou math
-
+# MatrixBabou
+  
+This library is for matrices analysis , escpicaly in data mining .
 
 ## Installation
-```pip install Baboumath```
+``` python3 -m pip install --user  MatrixBabou==0.0.2```
 
 ## How to use it?
 Work with matrices 
 
 ## License
 
-© 2020 Udit Vashisht
+© 2021 Udit Vashisht
 
 This repository is licensed under the MIT license. See LICENSE for details.
