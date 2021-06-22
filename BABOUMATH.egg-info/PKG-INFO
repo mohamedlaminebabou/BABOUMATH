@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: BABOUMATH
+Version: 0.0.1
+Summary: Accelerate Product of matrices and Rectification of some function in numpy
+Home-page: https://github.com/mohamedlaminebabou/BABOUMATH
+Author: Babou Mohamed Lamine
+Author-email: mohamedlaminebabou@gmail.com
+License: MIT
+Description: 
+        
+        This is a library of product of matrices accelerated by numba, very useful for Matrix analysis.
+        
+        
+        
+        Change Log
+        =================
+        
+        0.0.1 (22/06/2021)
+        ------------------------
+        - First Release
+Keywords: python,matrix,Matrix product,Matrix analysis
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
