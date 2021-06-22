@@ -1,6 +1,6 @@
 # MatrixBabou
   
-This library is for matrices analysis and data mining. Its created to facilite some of notable tools in linear algebra like the classical products (Kronecker, Khatri-rao,hadamard..) ,and we accelreate all this functions by Numba.
+This library is for matrix analysis and data mining. Its created to facilitate some of notable tools in linear algebra like the classical products (Kronecker, Khatri-Rao, Hadamard..) , and all this function are accelerated by Numba .
 
 ## Installation
 ``` python3 -m pip install --user  MatrixBabou==0.0.7```
