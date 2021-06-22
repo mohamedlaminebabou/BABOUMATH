@@ -1,3 +1,14 @@
+# Babou math
 
 
-This is a library of product of matrices accelerated by numba, very useful for Matrix analysis.
+## Installation
+```pip install Baboumath```
+
+## How to use it?
+Work with matrices 
+
+## License
+
+© 2020 Udit Vashisht
+
+This repository is licensed under the MIT license. See LICENSE for details.

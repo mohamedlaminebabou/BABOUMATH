@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+MatrixBabou.egg-info/PKG-INFO
+MatrixBabou.egg-info/SOURCES.txt
+MatrixBabou.egg-info/dependency_links.txt
+MatrixBabou.egg-info/requires.txt
+MatrixBabou.egg-info/top_level.txt
+babou/__init__.py
+babou/mat_prod.py

@@ -1,27 +1,25 @@
-
+import pathlib
 from setuptools import setup, find_packages
-
-
 import codecs
 import os
 
-here = os.path.abspath(os.path.dirname(__file__))
+# The directory containing this file
+HERE = pathlib.Path(__file__).parent
 
-with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
-    long_description = "\n" + fh.read()
+# The text of the README file
+README = (HERE / "README.md").read_text()
 
-
-# Setting up
+# This call to setup() does all the work
 setup(
-    name='BABOUMATH',
-    version='0.0.1',
-    description='Accelerate Product of matrices and Rectification of some function in numpy',
-    long_description=open('README.md').read() + '\n\n' + open('CHANGELOG.txt').read(),
-    url='https://github.com/mohamedlaminebabou/BABOUMATH',  
-    author='Babou Mohamed Lamine',
-    author_email='mohamedlaminebabou@gmail.com',
-    license='MIT', 
+    name="MatrixBabou",
+    version="0.0.1",
+    description="This is a library of product of matrices accelerated by numba, very useful for Matrix analysis.",
+    long_description=README,
     long_description_content_type="text/markdown",
+    url="https://github.com/mohamedlaminebabou/BABOUMATH/",
+    author="Babou Mohamed Lamine ",
+    author_email="mohamedlaminebabou@gmail.com",
+    license="MIT",
     packages=find_packages(),
     install_requires=['numba', 'numpy'],
     keywords=['python', 'matrix', 'Matrix product', 'Matrix analysis'],
@@ -33,8 +31,7 @@ setup(
         "Operating System :: MacOS :: MacOS X",
         "Operating System :: Microsoft :: Windows",
     ]
+
+    
+
 )
-
-
- 
-

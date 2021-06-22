@@ -1,23 +1,26 @@
 Metadata-Version: 2.1
-Name: BABOUMATH
+Name: MatrixBabou
 Version: 0.0.1
-Summary: Accelerate Product of matrices and Rectification of some function in numpy
-Home-page: https://github.com/mohamedlaminebabou/BABOUMATH
-Author: Babou Mohamed Lamine
+Summary: This is a library of product of matrices accelerated by numba, very useful for Matrix analysis.
+Home-page: https://github.com/mohamedlaminebabou/BABOUMATH/
+Author: Babou Mohamed Lamine 
 Author-email: mohamedlaminebabou@gmail.com
 License: MIT
-Description: 
-        
-        This is a library of product of matrices accelerated by numba, very useful for Matrix analysis.
+Description: # Babou math
         
         
+        ## Installation
+        ```pip install Baboumath```
         
-        Change Log
-        =================
+        ## How to use it?
+        Work with matrices 
         
-        0.0.1 (22/06/2021)
-        ------------------------
-        - First Release
+        ## License
+        
+        © 2020 Udit Vashisht
+        
+        This repository is licensed under the MIT license. See LICENSE for details.
+        
 Keywords: python,matrix,Matrix product,Matrix analysis
 Platform: UNKNOWN
 Classifier: Development Status :: 1 - Planning

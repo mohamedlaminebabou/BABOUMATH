@@ -1,7 +1,7 @@
 
-import numpy as np 
-from numba import prange , jit 
-import os 
+import numpy as np
+from numba import prange , jit
+import os
 import sys
 def sh_b(A):
     t=list(np.asarray(A).shape)
