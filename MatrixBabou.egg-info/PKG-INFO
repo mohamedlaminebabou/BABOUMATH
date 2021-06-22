@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: MatrixBabou
-Version: 0.0.2
+Version: 0.0.7
 Summary: This is a library of product of matrices accelerated by numba, very useful for Matrix analysis.
 Home-page: https://github.com/mohamedlaminebabou/BABOUMATH/
 Author: Babou Mohamed Lamine 
@@ -18,12 +18,14 @@ Description-Content-Type: text/markdown
 License-File: LICENSE
 
 # MatrixBabou
+  
+This library is for matrices analysis and data mining. Its created to facilite some of notable tools in linear algebra like the classical products (Kronecker, Khatri-rao,hadamard..) ,and we accelreate all this functions by Numba.
 
 ## Installation
-```pip install MatrixBabou```
+``` python3 -m pip install --user  MatrixBabou==0.0.7```
 
 ## How to use it?
-Work with matrices 
+Work with matrices , Linear Algebra 
 
 ## License
 

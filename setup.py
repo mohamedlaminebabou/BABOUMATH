@@ -12,7 +12,7 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="MatrixBabou",
-    version="0.0.2",
+    version="0.0.7",
     description="This is a library of product of matrices accelerated by numba, very useful for Matrix analysis.",
     long_description=README,
     long_description_content_type="text/markdown",
