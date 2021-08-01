@@ -1,13 +1,9 @@
 # MatrixBabou
   
-This library is for matrix analysis and data mining. Its created to facilitate some of notable tools in linear algebra like the matriix decompositions and the classical products (Kronecker, Khatri-Rao, Hadamard..) , and all this function are accelerated.
+This library is for matrix analysis and data mining. Its created to facilitate some of notable tools in linear algebra like the matrix decompositions and the classical products (Kronecker, Khatri-Rao, Hadamard..) , and all this functions are accelerated via the parallel computing methods.
 
 ## Installation
 ``` python3 -m pip install --user  MatrixBabou```
-
-
-
-=======
 
 
 

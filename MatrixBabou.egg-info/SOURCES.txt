@@ -4,6 +4,7 @@ README.md
 setup.py
 MatrixBabou/NMFALS.py
 MatrixBabou/__init__.py
+MatrixBabou/krylov.py
 MatrixBabou/mat_prod.py
 MatrixBabou.egg-info/PKG-INFO
 MatrixBabou.egg-info/SOURCES.txt
