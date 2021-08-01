@@ -13,7 +13,7 @@ Work with matrices , Linear Algebra , Matrix decomposition .
 Work with matrices , Linear Algebra 
 
 ## Tutorial
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mohamedlaminebabou/BABOUMATH/tutorial/NMF.ipynb/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mohamedlaminebabou/BABOUMATH/tutorial/HEAD)
 
  
 ## License
