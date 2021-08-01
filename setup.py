@@ -12,8 +12,8 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="MatrixBabou",
-    version="0.0.7",
-    description="This is a library of product of matrices accelerated by numba, very useful for Matrix analysis.",
+    version="0.1.1",
+    description="This library is for linear algebra, Matrix analysis ",
     long_description=README,
     long_description_content_type="text/markdown",
     url="https://github.com/mohamedlaminebabou/BABOUMATH/",
@@ -21,7 +21,7 @@ setup(
     author_email="mohamedlaminebabou@gmail.com",
     license="MIT",
     packages=find_packages(),
-    install_requires=['numba', 'numpy'],
+    install_requires=['numba', 'numpy','pyccel'],
     keywords=['python', 'matrix', 'Matrix product', 'Matrix analysis'],
     classifiers=[
         "Development Status :: 1 - Planning",

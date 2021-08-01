@@ -49,15 +49,22 @@ def Cholesky(A):
 
 
     
-@jit(fastmath=True,parallel=True)
-def prod(A,B):
-    n,p=sh_b(A) 
-    m=sh_b(B)[1]
-    C=np.zeros((n,m))
+from pyccel.decorators import types
+from pyccel.epyccel import epyccel
 
-    for i in prange(n):
-            for j in prange(m):
-                  for k in prange(p):
-                      C[i,j]+=A[i,k]*B[k,j]
-    return C
+@types('float[:,:](order=F)','float[:,:](order=F)','float[:,:](order=C)')
+def matmul_F(x,y,z):
+    n,p=x.shape
+    m=y.shape[1]
+
+    for i in range(n):
+        for j in range(m):
+            z[i, j]  = 0.0
+            for k in range(p):
+                z[i, j] +=x[i, k] * y[k, j]
+
+    return 0
+dot_for=epyccel(matmul_F)
+
+
 
