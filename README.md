@@ -6,12 +6,14 @@ This library is for matrix analysis and data mining. Its created to facilitate s
 ``` python3 -m pip install --user  MatrixBabou```
 
 
-## How to use it?.
-Work with matrices , Linear Algebra , Matrix decomposition .
+
 =======
 
+
+
 ## How to use it?
-Work with matrices , Linear Algebra 
+It's used for Linear Algebra , matrix decompsition, and also for solving  linear systems $Ax=b$ .
+
 
 
 ## Tutorial see
