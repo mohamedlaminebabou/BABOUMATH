@@ -8,7 +8,7 @@ This library is for matrix analysis and data mining. Its created to facilitate s
 ## How to use it?.
 Work with matrices , Linear Algebra , Matrix decomposition .
 
-## Tutorial
+## Tutorial see
 
  
 ## License
