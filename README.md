@@ -9,7 +9,7 @@ This library is for matrix analysis and data mining. Its created to facilitate s
 
 ## How to use it?
 It's used for Linear Algebra , matrix decompsition : NMF Decompsition $\mathbf{M\approx UV}$ ,
- and also for solving  matrix least square problem  : $\mathbf{\|AX-B\}$
+ and also for solving  matrix least square problem  : $\mathbf{\frac{1}{2}\min_{X\in \mathbb {R}{n\times m}}\|AX-B\|^2_{F}}$
 .
 
 
