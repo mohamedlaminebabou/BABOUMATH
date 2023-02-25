@@ -8,7 +8,7 @@ This library is for matrix analysis and data mining. Its created to facilitate s
 
 
 ## How to use it?
-It's used for Linear Algebra , matrix decompsition : NMF Decompsition <img src="https://render.githubusercontent.com/render/math?math=%5Cmathbf%7BA%5Capprox%20UV%7D%20"> ,
+It's used for Linear Algebra , matrix decompsition : NMF Decompsition $\mathbf{M\approx UV}$ ,
  and also for solving  matrix least square problem  : <img src="https://render.githubusercontent.com/render/math?math=%5Cmathbf%7B%5C%7CAX-B%5C%7C_2%5E2%3D%20%5Csum_%7Bi%3D1%7D%5E%7Bn%7D%20%5C%7CAx_i-%20b_i%5C%7C_2%20%5E2%7D">
 .
 
